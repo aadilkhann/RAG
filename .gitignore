@@ -1,0 +1,11 @@
+# Virtual environment
+venv/
+myenv/
+
+# Python bytecode files
+*.pyc
+*.pyo
+
+# IDE configuration files
+.vscode/
+.idea/
