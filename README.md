@@ -25,3 +25,21 @@ This command will install all the dependencies specified in the `requirements.tx
   source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
   pip install -r requirements.txt
   ```
+
+* **Not working after activation of venv**:
+  ```
+  # From the RAG directory
+  rm -rf myenv
+
+  # Create a clean venv
+  python3 -m venv myenv
+
+  # Activate it
+  source myenv/bin/activate
+
+  # Confirm pip path is inside the venv
+  which pip
+
+  # Now install requirements
+  pip install -r requirements.txt
+  ```
